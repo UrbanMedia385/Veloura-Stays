@@ -37,20 +37,7 @@ memories.`,
       price: "₹ 60,000",
       link: "/villasIzara",
     },
-    {
-      id: 3,
-      image: IMAGES.VILLA2,
-      title: "Kairos Hills",
-      location: "Udaipur, Rajasthan",
-      amenities: "AC Suite / Lake View / Dining",
-      description: `Stay at Villa Izara, where luxury meets nature in the 
-heart of the Aravalli ranges. With spacious interiors, a 
-private pool, and world-class amenities, every moment 
-invites you to relax, celebrate, and make unforgettable 
-memories.`,
-      price: "₹ 50,000",
-      link: "/villasIzara",
-    },
+
   ];
 
   return (
@@ -73,7 +60,7 @@ memories.`,
       </div>
 
       {/* Villas Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 sm:gap-10">
         {villas.map((villa) => (
           <Card key={villa.id} {...villa} />
         ))}

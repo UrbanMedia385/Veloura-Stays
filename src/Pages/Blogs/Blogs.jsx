@@ -10,6 +10,11 @@ import IMAGES from '../../Constants/Images'
 const Blogs = () => {
     return (
         <div>
+            <head>
+                <title>Latest Blogs on Luxury Villas & Holiday Homes | Veloura Stays</title>
+                <meta name="description" content="Stay updated with the latest blogs & trends on Luxury Villas & Holiday Homes. Get travel tips, villa recommendations, and vacation ideas for your dream stay." />
+                <meta name="keywords" content="Blogs on Luxury Villas" />
+            </head>
             <CommonHero
                 image={IMAGES.BLOGHERO}
                 title="Blogs"

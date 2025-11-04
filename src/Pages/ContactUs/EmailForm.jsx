@@ -121,12 +121,12 @@ const ContactForm = () => {
                             {
                                 icon: <Mail className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-[#403B21]" />,
                                 title: 'Message Us',
-                                content: 'reservation@velourastays.com'
+                                content: <a href="mailto:reservation@velourastays.com" className="hover:underline">reservation@velourastays.com</a>
                             },
                             {
                                 icon: <Phone className="w-5 h-5 sm:w-6 sm:h-6 lg:w-6 lg:h-7 text-[#403B21]" />,
                                 title: 'Contact Us',
-                                content: '+91 9797979075'
+                                content: <a href="tel:+919797979075" className="hover:underline">+91 9797979075</a>
                             }
                         ].map((item, idx) => (
                             <div key={idx} className="flex items-start space-x-3 sm:space-x-4 group hover:transform hover:translate-x-1 transition-all duration-300">

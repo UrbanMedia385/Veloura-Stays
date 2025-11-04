@@ -13,6 +13,11 @@ const About = () => {
 
   return (
     <div>
+      <head>
+        <title>About Veloura Stays – Discover Luxury Villas for Rent</title>
+        <meta name="description" content="Explore Veloura Stays and experience curated luxury villas for rent. Enjoy premium amenities, private pools, and unforgettable vacation experiences." />
+        <meta name="keywords" content="About Veloura Stays" />
+      </head>
       <CommonHero
         // height='400px'
         image={hero}

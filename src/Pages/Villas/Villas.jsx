@@ -7,6 +7,11 @@ import IMAGES from '../../Constants/Images'
 const Villas = () => {
     return (
         <div>
+            <head>
+                <title>Private Villas in Udaipur | Book Now - Veloura Stays</title>
+                <meta name="description" content="Book your private villas in Udaipur with Veloura Stays. Enjoy private pools, dedicated staff, luxury accommodations, and the best deals. book with Veloura Stays now." />
+                <meta name="keywords" content="Villas in Udaipur, Private Villas in Udaipur" />
+            </head>
             <CommonHero
                 image={IMAGES.VILLAPAGEHERO}
                 title="Villas & Resorts"

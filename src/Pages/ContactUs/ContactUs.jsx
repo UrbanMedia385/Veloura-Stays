@@ -9,6 +9,11 @@ import IMAGES from '../../Constants/Images'
 const ContactUs = () => {
   return (
     <div>
+      <head>
+        <title>Contact Us | Veloura Stays – Luxury Villa Rentals</title>
+        <meta name="description" content="Contact Veloura Stays today for luxury villa rentals. Our team is ready to assist you with bookings, inquiries, and personalized stays. Call Now - +91 9797979075" />
+        <meta name="keywords" content="Contact Us | Veloura Stays" />
+      </head>
       <CommonHero
         image={IMAGES.CONTACTUSHERO}
         title="Contact Us"

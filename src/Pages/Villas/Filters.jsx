@@ -37,21 +37,7 @@ memories.`,
             price: "₹ 60,000",
             link: "/villasIzara"
         },
-        {
-            id: 3,
-            image: IMAGES.VILLA2,
-            title: "Kairos Hills",
-            location: "Udaipur, Rajasthan",
-            amenities: "AC Suite / Lake View / Dining",
-            description:
-                `Stay at Villa Izara, where luxury meets nature in the 
-heart of the Aravalli ranges. With spacious interiors, a 
-private pool, and world-class amenities, every moment 
-invites you to relax, celebrate, and make unforgettable 
-memories.`,
-            price: "₹ 50,000",
-            link: "/villasIzara"
-        },
+
     ];
 
     const [priceRange, setPriceRange] = useState(5000);

@@ -62,7 +62,6 @@ const Footer = () => {
                 title: "Destination",
                 links: [
                   { name: "Udaipur", to: "/destinations/udaipur" },
-                  { name: "Gujarat", to: "/destination/gujarat" },
                 ],
               },
               {
@@ -84,6 +83,19 @@ const Footer = () => {
                         to={link.to}
                         className="text-[#403B21]/80 hover:text-[#403B21] transition-all duration-300 hover:pl-2 hover:font-medium flex items-center group text-sm sm:text-base"
                       >
+                        <svg
+                          className="w-3 h-3 mr-2 text-[#403B21]/60 group-hover:text-[#403B21] transition-colors"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 5l7 7-7 7"
+                          />
+                        </svg>
                         <span className="w-1 h-1 bg-[#403B21] rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                         {link.name}
                       </Link>
@@ -211,7 +223,7 @@ const Footer = () => {
           <div className="border-t border-[#403B21]/20 mt-12 pt-6 text-center text-[#403B21]/60 text-xs sm:text-sm md:text-base">
             <p className="font-light">
               &copy; {new Date().getFullYear()} Veloura Stays. All rights reserved.
-              <span className="mx-2">•</span> Crafted with luxury in mind
+              <span className="mx-2"></span>
             </p>
           </div>
         </div>

@@ -10,6 +10,11 @@ import IMAGES from '../../Constants/Images'
 const UdaipurPage = () => {
     return (
         <div>
+            <head>
+                <title>Book Luxury Villas with Pvt Pool in Udaipur - Veloura Stays</title>
+                <meta name="description" content="Luxury Villas with Pvt Pool - Experience luxury villas with private pools in Udaipur with Veloura Stay. We offers premium villas for family getaways, romantic escapes, and luxury vacations." />
+                <meta name="keywords" content="Luxury Villas with Pool in Udaipur, Villas In Udaipur With Private Pool" />
+            </head>
             <CommonHero
                 image={IMAGES.VILLAPAGEHERO}
                 description="Home / Udaipur Villa"
