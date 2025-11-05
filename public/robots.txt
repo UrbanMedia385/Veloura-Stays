@@ -1,4 +1,17 @@
-User-agent: *
+User-agent: Googlebot
 Allow: /
 
-Sitemap: https://velourastays.com/sitemap.xml
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Block all other crawlers
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.velourastays.com/sitemap.xml
