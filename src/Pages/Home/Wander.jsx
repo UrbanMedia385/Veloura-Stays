@@ -23,11 +23,11 @@ const Wander = () => {
       { id: 5, image: IMAGES.WANDER5, location: 'Varanasi' },
     ],
     1: [
-      { id: 6, image: IMAGES.WANDER6, location: 'Lonaval' },
-      { id: 7, image: IMAGES.WANDER7, location: 'Shimla' },
-      { id: 8, image: IMAGES.WANDER8, location: 'Ooty' },
-      { id: 9, image: IMAGES.WANDER9, location: 'Rishikesh' },
-      { id: 10, image: IMAGES.WANDER10, location: 'Nainital' },
+      { id: 6, image: IMAGES.WANDER6, location: 'Fateh Sagar' },
+      { id: 7, image: IMAGES.WANDER7, location: 'City Palace' },
+      { id: 8, image: IMAGES.WANDER8, location: 'Nathdwara' },
+      { id: 9, image: IMAGES.WANDER9, location: 'Ekling ji' },
+      { id: 10, image: IMAGES.WANDER10, location: 'Sajjangarh' },
     ],
     2: [
       { id: 11, image: IMAGES.WANDER13, location: 'Delhi NCR' },
