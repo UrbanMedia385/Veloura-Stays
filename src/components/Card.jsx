@@ -8,7 +8,7 @@ const Card = ({ image, title, location, amenities, description, price, link }) =
   const navigate = useNavigate();
 
   return (
-    <div className="group cursor-pointer transform hover:-translate-y-2 transition duration-300 w-[90%] sm:w-[80%] md:w-[320px] lg:w-[360px] xl:w-[400px] mx-auto">
+    <div className="group cursor-pointer transform hover:-translate-y-2 transition duration-300 w-[90%] sm:w-[80%] md:w-[320px] lg:w-[360px] xl:w-[100%] mx-auto">
       {/* Image Section */}
       <div className="relative overflow-hidden shadow-lg border border-gray-200">
         {/* Overlay on Hover */}
