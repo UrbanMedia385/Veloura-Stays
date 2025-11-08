@@ -61,7 +61,7 @@ const HeroSection = () => {
     <div className="relative">
       <Navbar />
 
-      <section id="home" className="h-screen flex items-center justify-center overflow-hidden">
+      <section id="home" className="h-[60vh] md:h-screen flex items-center justify-center overflow-hidden">
         {/* Background Slideshow */}
         <div className="inset-0 z-0">
           {heroImages.map((image, index) => (
