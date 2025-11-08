@@ -15,7 +15,7 @@ const BestResorts = () => {
       <div className=''>
         {/* Title */}
         <div className="flex justify-center  mt-6 sm:mt-12">
-          <HeaderTitle space={false} title='Experience the Luxury Villa on Rentals for Vacation' />
+          <HeaderTitle space={false} title='Experience the Luxury Villa on Rentals for Vacation' tag="h1" />
         </div>
 
         {/* Main Section */}

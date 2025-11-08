@@ -103,7 +103,7 @@ const Rooms = () => {
       {/* Title */}
       <div className="flex justify-center ">
         <div className="w-full max-w-4xl text-center mt-4 sm:mt-0">
-          <HeaderTitle title="Rooms & Pricing" />
+          <HeaderTitle title="Rooms & Pricing" tag="h2" />
         </div>
       </div>
 

@@ -19,7 +19,7 @@ const HeaderTitle = ({
         className={`
           font-semibold
           text-[${Theme.colors.text}]
-          text-2xl sm:text-3xl md:text-3xl lg:text-3xl
+          text-xl sm:text-2xl md:text-3xl lg:text-3xl
           leading-tight tracking-wide
         `}
       >
@@ -32,5 +32,7 @@ const HeaderTitle = ({
     </div>
   );
 };
+
+
 
 export default HeaderTitle;

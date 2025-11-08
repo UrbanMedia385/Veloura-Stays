@@ -45,7 +45,7 @@ memories.`,
       {/* Header Section */}
       <div className="flex flex-col sm:flex-row justify-between items-center mb-8 sm:mb-0">
         <div className="flex justify-center items-center text-center sm:mb-0 w-full sm:w-auto">
-          <HeaderTitle title="Luxury Villas & Heritage Stays" />
+          <HeaderTitle title="Luxury Villas & Heritage Stays" tag="h2" />
         </div>
 
         {/* Explore More Button */}
