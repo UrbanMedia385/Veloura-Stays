@@ -15,7 +15,14 @@ import { Title, Meta } from "react-head";
 
 const Blog = () => {
     const { id } = useParams();
-    const blog = BlogsData.find((b) => b.id === parseInt(id));
+    // Check if id is a number (old format) or slug (new format)
+    const isNumeric = /^\d+$/.test(id);
+    let blog;
+    if (isNumeric) {
+        blog = BlogsData.find((b) => b.id === parseInt(id));
+    } else {
+        blog = BlogsData.find((b) => b.slug === id);
+    }
 
     if (!blog) {
         return <div className="text-center py-20 text-3xl">Blog not found</div>;
