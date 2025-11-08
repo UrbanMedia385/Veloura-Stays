@@ -7,34 +7,45 @@ import Testimonials from '../../components/Testimonials'
 import Platforms from '../../components/Platforms'
 import Section4 from './Section4'
 import IMAGES from '../../Constants/Images'
+import { Title, Meta } from "react-head"
 
 const About = () => {
   const hero = IMAGES.ABOUTHERO;
 
   return (
-    <div>
-      <head>
-        <title>About Veloura Stays – Discover Luxury Villas for Rent</title>
-        <meta name="description" content="Explore Veloura Stays and experience curated luxury villas for rent. Enjoy premium amenities, private pools, and unforgettable vacation experiences." />
-        <meta name="keywords" content="About Veloura Stays" />
-      </head>
-      <CommonHero
-        // height='400px'
-        image={hero}
-        title="About Us"
-        description="Home / About Us"
-      />
+    <>
+      {/* SEO Meta Tags */}
+      <Title>About Veloura Stays – Discover Luxury Villas for Rent</Title>
+      <Meta name="description" content="Explore Veloura Stays and experience curated luxury villas for rent. Enjoy premium amenities, private pools, and unforgettable vacation experiences." />
+      <Meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://velourastays.com/about" />
 
+      {/* Open Graph Tags */}
+      <Meta property="og:title" content="About Veloura Stays – Discover Luxury Villas for Rent" />
+      <Meta property="og:description" content="Explore Veloura Stays and experience curated luxury villas for rent. Enjoy premium amenities, private pools, and unforgettable vacation experiences." />
+      <Meta property="og:url" content="https://velourastays.com/about" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:image" content="https://velourastays.com/abouthero.jpg" />
+      <Meta property="og:site_name" content="Veloura Stays" />
 
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Testimonials />
-      <div className='mb-12'>
-        <Platforms />
+      <div>
+        <CommonHero
+          // height='400px'
+          image={hero}
+          title="About Us"
+          description="Home / About Us"
+        />
+
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Testimonials />
+        <div className='mb-12'>
+          <Platforms />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

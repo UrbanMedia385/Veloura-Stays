@@ -34,12 +34,16 @@ const Blog = () => {
             {/* ✅ Dynamic Meta Tags */}
             <Title>{blog.metaTitle || blog.title}</Title>
             <Meta name="description" content={blog.metaDescription || blog.subtitle} />
+            <Meta name="robots" content="index, follow" />
+            <link rel="canonical" href={`https://velourastays.com/blog/${blog.slug}`} />
 
             {/* Optional — Social Sharing SEO Tags */}
             <Meta property="og:title" content={blog.metaTitle || blog.title} />
             <Meta property="og:description" content={blog.metaDescription || blog.subtitle} />
             <Meta property="og:image" content={blog.hero} />
             <Meta property="og:type" content="article" />
+            <Meta property="og:url" content={`https://velourastays.com/blog/${blog.slug}`} />
+            <Meta property="og:site_name" content="Veloura Stays" />
 
 
 
