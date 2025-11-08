@@ -131,7 +131,7 @@ const Rooms = () => {
                 <div className="lg:w-1/2 relative overflow-hidden" style={{ borderRadius: 0 }}>
                   <img
                     src={room.image}
-                    alt={room.title}
+                    alt="Luxury Villa on Rent in Udaipur"
                     className="w-full h-52 sm:h-64 lg:h-full object-cover transition-transform duration-700 hover:scale-105"
                     style={{ borderRadius: 0 }}
                   />

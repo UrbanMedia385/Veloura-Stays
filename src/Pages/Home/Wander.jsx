@@ -86,7 +86,7 @@ const Wander = () => {
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition duration-300">
                 <img
                   src={card.image}
-                  alt={card.location}
+                  alt="Luxury Villa on Rent in Udaipur"
                   className="w-full h-56 sm:h-64 md:h-72 object-cover group-hover:scale-105 transition duration-300"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3 sm:p-4">
@@ -112,7 +112,7 @@ const Wander = () => {
               <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition duration-300">
                 <img
                   src={card.image}
-                  alt={card.location}
+                  alt="Luxury Villa on Rent in Udaipur"
                   className="w-full h-56 sm:h-64 md:h-72 object-cover group-hover:scale-105 transition duration-300"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-3 sm:p-4">

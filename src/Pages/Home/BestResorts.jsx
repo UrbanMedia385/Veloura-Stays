@@ -111,7 +111,7 @@ const BestResorts = () => {
               <div className="absolute top-2 right-0 sm:-right-10 md:-right-24 w-52 sm:w-64 md:w-80 h-64 sm:h-80 md:h-96 z-10 border-[10px] sm:border-[12px] md:border-[15px] border-white">
                 <img
                   src={image2}
-                  alt="Luxury interior"
+                  alt="Luxury Villas with Pool in Udaipur"
                   className="w-full h-full object-cover shadow-xl rounded-md"
                 />
               </div>
@@ -120,7 +120,7 @@ const BestResorts = () => {
               <div className="absolute bottom-4 left-0 w-52 sm:w-64 md:w-80 h-64 sm:h-80 md:h-96">
                 <img
                   src={image1}
-                  alt="Resort exterior"
+                  alt="Luxury Villas with Pool in Udaipur"
                   className="w-full h-full object-cover shadow-lg rounded-md"
                 />
               </div>

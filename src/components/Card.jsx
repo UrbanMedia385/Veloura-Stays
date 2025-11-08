@@ -29,7 +29,7 @@ const Card = ({ image, title, location, amenities, description, price, link }) =
         {/* Image */}
         <img
           src={image}
-          alt={title}
+          alt="Luxury Villa on Rent in Udaipur"
           className="w-full h-44 sm:h-56 md:h-64 object-cover group-hover:scale-110 transition duration-500"
           loading="lazy"
           draggable={false}

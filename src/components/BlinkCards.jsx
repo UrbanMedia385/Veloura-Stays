@@ -5,7 +5,7 @@ const BlinkCards = ({ image, name }) => {
         <div className="group cursor-pointer text-center overflow-hidden shadow-lg transition duration-300 relative">
             <img
                 src={image}
-                alt={name}
+                alt="Luxury Villa on Rent in Udaipur"
                 className="w-full h-72 object-cover group-hover:scale-110 transition duration-500"
             />
             <div className="absolute inset-0 flex items-center justify-center">

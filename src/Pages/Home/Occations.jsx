@@ -65,7 +65,7 @@ const Occasion = () => {
             {/* Image */}
             <img
               src={occasion.image}
-              alt={occasion.title}
+              alt="Luxury Villa on Rent in Udaipur"
               className="w-full h-54 sm:h-60 object-cover transition-transform duration-700 group-hover:scale-110"
             />
 

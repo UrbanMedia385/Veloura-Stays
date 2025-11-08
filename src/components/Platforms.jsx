@@ -33,7 +33,7 @@ const Platforms = () => {
             >
               <img
                 src={logo}
-                alt={`Platform ${index + 1}`}
+                alt="Luxury Villa on Rent in Udaipur"
                 className="max-h-8 sm:max-h-10 md:max-h-12 max-w-[60px] sm:max-w-[80px] object-contain transition-transform duration-300 hover:scale-110"
               />
             </div>
@@ -49,7 +49,7 @@ const Platforms = () => {
             >
               <img
                 src={logo}
-                alt={`Platform ${index + platforms1.length + 1}`}
+                alt="Luxury Villa on Rent in Udaipur"
                 className="max-h-8 sm:max-h-10 md:max-h-12 max-w-[60px] sm:max-w-[80px] object-contain transition-transform duration-300 hover:scale-110"
               />
             </div>

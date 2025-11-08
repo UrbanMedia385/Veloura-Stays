@@ -110,7 +110,7 @@ const Testimonials = () => {
                     <div className="mb-4 sm:mb-6 flex justify-center">
                         <img
                             src={testimonials[currentTestimonial].avatar}
-                            alt={testimonials[currentTestimonial].name}
+                            alt="Luxury Villa on Rent in Udaipur"
                             className="
             w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-32 md:h-32
             rounded-full object-cover border-4 border-white shadow-lg transition-transform duration-300

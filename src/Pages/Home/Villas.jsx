@@ -62,7 +62,7 @@ memories.`,
       {/* Villas Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 sm:gap-10">
         {villas.map((villa) => (
-          <Card key={villa.id} {...villa} />
+          <Card key={villa.id} {...villa} alt="Luxury Villa on Rent in Udaipur" />
         ))}
       </div>
     </div>

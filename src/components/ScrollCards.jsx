@@ -9,7 +9,7 @@ const ScrollCards = ({ image, title }) => {
       {/* Image */}
       <img
         src={image}
-        alt={title}
+        alt="Luxury Villa on Rent in Udaipur"
         className="w-full h-54 sm:h-60 md:h-64 lg:h-72 object-cover transition-transform duration-700 group-hover:scale-110"
       />
 

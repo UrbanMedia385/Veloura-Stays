@@ -26,7 +26,7 @@ const BlogCard2 = ({ ...props }) => {
                 <div className="h-64 overflow-hidden relative">
                     <img
                         src={props.imageUrl}
-                        alt={props.title}
+                        alt="Luxury Villa on Rent in Udaipur"
                         className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                     />
                 </div>
