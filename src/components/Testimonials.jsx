@@ -59,7 +59,7 @@ const Testimonials = () => {
     return (
         <section className="section-container">
             <div className="max-w-[980px] mx-auto text-center">
-                <HeaderTitle title="Client Testimonials" size="20" />
+                <HeaderTitle title="Client Testimonials" size="20" tag="h3" />
             </div>
 
             {/* Testimonial Card */}

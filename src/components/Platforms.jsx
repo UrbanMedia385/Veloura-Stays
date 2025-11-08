@@ -22,7 +22,7 @@ const Platforms = () => {
     <div className="section-container">
       <div className="my-8">
         {/* Header */}
-        <HeaderTitle title="Find us on all your favorite platforms!" />
+        <HeaderTitle title="Find us on all your favorite platforms!" tag="h3" />
 
         {/* First Row */}
         <div className="mt-8 sm:mt-10 flex flex-wrap justify-center gap-4 sm:gap-6 mb-8">

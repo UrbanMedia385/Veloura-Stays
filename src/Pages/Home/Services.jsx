@@ -44,7 +44,7 @@ const Services = () => {
       <div>
         {/* Header Title */}
         <div className="text-center my-8 max-w-2xl mx-auto">
-          <HeaderTitle title="Our Services" size="20" />
+          <HeaderTitle title="Our Services" size="20" tag="h3" />
         </div>
 
         {/* Services Grid */}

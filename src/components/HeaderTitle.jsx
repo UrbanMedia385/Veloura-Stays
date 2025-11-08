@@ -7,13 +7,15 @@ const HeaderTitle = ({
   size = "20",
   className = "",
   space = true,
+  tag = "h1",
 }) => {
+  const Tag = tag;
   return (
     <div
       className={`text-center w-full ${space ? "my-4 sm:my-8" : "my-0"
         } ${className}`}
     >
-      <h2
+      <Tag
         className={`
           font-semibold
           text-[${Theme.colors.text}]
@@ -22,7 +24,7 @@ const HeaderTitle = ({
         `}
       >
         {title}
-      </h2>
+      </Tag>
 
       {/* <div className="flex justify-center mt-3 sm:mt-4"> */}
       <HorizontalDivider size={size} />

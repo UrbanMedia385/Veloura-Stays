@@ -37,7 +37,7 @@ const HomeFooter = () => {
         {/* HeaderTitle with constrained width */}
         <div className="flex justify-center ">
           <div className="w-full max-w-xl">
-            <HeaderTitle title='A Stay Like Nowhere Else' />
+            <HeaderTitle title='A Stay Like Nowhere Else' tag="h3" />
           </div>
         </div>
 
