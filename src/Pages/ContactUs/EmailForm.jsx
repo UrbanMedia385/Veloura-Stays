@@ -70,7 +70,7 @@ const ContactForm = () => {
         return newErrors;
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         const validationErrors = validate();
         if (Object.keys(validationErrors).length > 0) {
@@ -78,7 +78,25 @@ const ContactForm = () => {
             return;
         }
         setErrors({});
-        navigate('/Thankyou');
+
+        try {
+            const response = await fetch('http://localhost:5000/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                navigate('/Thankyou');
+            } else {
+                alert('Failed to send message. Please try again.');
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            alert('Failed to send message. Please try again.');
+        }
     };
 
     const isSubmitDisabled =
