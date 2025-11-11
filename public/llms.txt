@@ -1,0 +1,11 @@
+# Allow OpenAI (ChatGPT)
+User-Agent: OpenAI
+Allow: /
+
+# Allow Perplexity AI
+User-Agent: Perplexity
+Allow: /
+
+# Disallow all other AI crawlers or LLMs
+User-Agent: *
+Disallow: /
