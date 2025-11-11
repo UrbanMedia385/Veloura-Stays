@@ -13,7 +13,11 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/send-email': {
+      '/api/send-email': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+      },
+      '/api/subscribe': {
         target: 'http://localhost:5000',
         changeOrigin: true,
       },

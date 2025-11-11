@@ -47,6 +47,34 @@ app.post('/send-email', async (req, res) => {
   }
 });
 
+// Email subscription endpoint
+app.post('/subscribe', async (req, res) => {
+  const { email } = req.body;
+
+  if (!email) {
+    return res.status(400).json({ message: 'Email is required' });
+  }
+
+  const mailOptions = {
+    from: process.env.EMAIL_USER,
+    to: ['velourastays@gmail.com', 'reservation@velourastays.com'],
+    subject: 'New Email Subscription - Veloura Stays',
+    html: `
+      <h2>New Email Subscription</h2>
+      <p><strong>Email:</strong> ${email}</p>
+      <p>The user has subscribed to receive offers and updates.</p>
+    `
+  };
+
+  try {
+    await transporter.sendMail(mailOptions);
+    res.status(200).json({ message: 'Subscription successful' });
+  } catch (error) {
+    console.error('Error sending subscription email:', error);
+    res.status(500).json({ message: 'Failed to subscribe' });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
