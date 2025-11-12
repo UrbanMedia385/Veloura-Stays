@@ -82,6 +82,7 @@ const Footer = () => {
                       <Link
                         to={link.to}
                         className="text-[#403B21]/80 hover:text-[#403B21] transition-all duration-300 hover:pl-2 hover:font-medium flex items-center group text-sm sm:text-base"
+                        style={{ cursor: 'default' }}
                       >
                         <svg
                           className="w-3 h-3 mr-2 text-[#403B21]/60 group-hover:text-[#403B21] transition-colors"
@@ -96,7 +97,6 @@ const Footer = () => {
                             d="M9 5l7 7-7 7"
                           />
                         </svg>
-                        <span className="w-1 h-1 bg-[#403B21] rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                         {link.name}
                       </Link>
                     </li>
