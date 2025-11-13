@@ -65,10 +65,10 @@ const FullSection = () => {
                     <div className="space-y-8">
                         {/* Villa Info */}
                         <div>
-                            <h2 className={`text-[${Theme.colors.text}] font-bold text-2xl sm:text-3xl mb-3`}>
+                            <h1 className={`text-[${Theme.colors.text}] font-bold text-2xl sm:text-3xl mb-3`}>
                                 Welcome to Villa Izara,
-                                Enjoy Your Dream Vacation In Udaipur
-                            </h2>
+                                5BHK Private Hanging Villa In Udaipur
+                            </h1>
                             <p className={`text-[${Theme.colors.darkText}] text-base sm:text-md md:text-lg mb-3`}>
                                 Udaipur's first-of-its-kind A-frame hanging villa, situated in the beautiful Aravalli ranges. Bringing you closer to nature, it's everything you'd want in your dream getaway.
                             </p>
