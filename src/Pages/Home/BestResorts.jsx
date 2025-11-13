@@ -42,7 +42,7 @@ const BestResorts = () => {
               className={`space-y-3 sm:space-y-4 text-[${Theme.colors.darkText}] mb-6 sm:mb-8`}
             >
               <p className="text-base sm:text-lg md:text-xl leading-relaxed">
-                Welcome to Veloura Stays — your escape away from the hustle. Relax, unwind,
+                Welcome to <strong><a href="https://www.velourastays.com/about">Veloura Stays</a></strong>— your escape away from the hustle. Relax, unwind,
                 and soak in the views.
               </p>
               <p className="text-base sm:text-lg md:text-xl leading-relaxed">

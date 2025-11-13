@@ -68,7 +68,7 @@ const Section1 = () => {
                 fontWeight: 400,
               }}
             >
-              Veloura Stays isn't just where you crash, it's where you connect, unwind, and vibe. Think homely comfort with a cool twist. We're not your typical "hotel with rules and reception desks." Nope.
+              <strong><a href="https://www.velourastays.com/">Veloura Stays </a></strong>isn't just where you crash, it's where you connect, unwind, and vibe. Think homely comfort with a cool twist. We're not your typical "hotel with rules and reception desks." Nope.
             </p>
 
             <p

@@ -10,7 +10,7 @@ const AlternatingContent = () => {
     {
       id: 1,
       title1: "Sustainable Approach",
-      content1: `Experience a villa that embraces sustainable living without compromise. From smart 
+      content1: `Experience a private villa in udaipur that embraces sustainable living without compromise. From smart 
 lighting and recycled materials to natural ventilation and lush green landscaping, every 
 detail is designed to blend eco-consciousness with leisure. Enjoy guilt-free
 indulgence in a space that breathes with nature.`,

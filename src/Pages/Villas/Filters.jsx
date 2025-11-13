@@ -76,7 +76,7 @@ memories.`,
         <div className='section-container '>
             <div className=' mb-8'>
                 <HeaderTitle
-                    title='Wonderful Villas in the heart of Udaipur Heights'
+                    title='Wonderful Private Villas in the heart of Udaipur Heights'
                     textColor={Theme.colors.text}
                 />
 

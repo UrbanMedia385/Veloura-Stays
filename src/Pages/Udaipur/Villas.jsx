@@ -42,7 +42,7 @@ memories.`,
     return (
         <div className="section-container ">
             <div className="mt-6 sm:mt-12">
-                <HeaderTitle title="Wonderful Villas in the heart of Udaipur Heights" />
+                <HeaderTitle title="Book Your Luxury Private Pool Villa in Udaipur"/>
 
                 <div className="flex flex-col space-y-8  sm:space-y-4 ">
                     {villas.map((villa, index) => {

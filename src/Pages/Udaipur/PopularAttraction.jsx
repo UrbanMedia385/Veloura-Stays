@@ -49,7 +49,7 @@ const PopularAttraction = () => {
         <p
           className={`text-[${Theme.colors.darkText}] mt-6 sm:mt-8 text-base sm:text-lg md:text-xl   text-center leading-relaxed`}
         >
-          Our villas are made for comfort and connection — big families, close friends, or even just a peaceful retreat for yourself.
+          <a href="https://www.velourastays.com/">Veloura Stays </a>villas are made for comfort and connection — big families, close friends, or even just a peaceful retreat for yourself.
           Plus, you're right in the middle of it all. Want to see the famous lakes Fatehsagar, Pichola, Badi, and Udaisagar are right there.
           Love history and architecture? City Palace, Bagore Ki Haveli, and Sajjangarh are a must. Prefer quiet corners? The ghats like Gangaur and Ambrai are perfect for that.
           You can even make a quick trip to Shreenathji or Jagdish Temple if you're in the mood for something spiritual.

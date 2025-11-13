@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       {/* SEO Meta Tags */}
-      <Title>Best Luxury Pool Villa Rentals for Vacations| Veloura Stays</Title>
+      <Title>Best Luxury Pool Villa Rentals for Vacations | Veloura Stays</Title>
       <Meta name="description" content="Explore the best luxury pool villas with Veloura Stays. Book private pool villas and holiday homes on rent for relaxing vacations, romantic getaways, or family retreats." />
       <Meta name="robots" content="index, follow" />
       <link rel="canonical" href="https://velourastays.com/" />

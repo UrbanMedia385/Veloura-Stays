@@ -117,7 +117,7 @@ const FullSection = () => {
                         <div>
                             <h2 className={`text-[${Theme.colors.text}] font-bold text-2xl sm:text-3xl`}>About Home</h2>
                             <p className={`text-[${Theme.colors.darkText}] text-base sm:text-md md:text-lg my-3`}>
-                                This spacious 5BHK villa offers ample space for group stays, with a private pool, celebration zone, and well-furnished rooms overlooking mesmerizing mountain views.
+                                This spacious 5BHK villa offers ample space for group stays, with a <a href="https://www.velourastays.com/villas">private pool villa</a>, celebration zone, and well-furnished rooms overlooking mesmerizing mountain views.
                             </p>
                             <HouseRules />
                         </div>

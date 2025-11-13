@@ -28,7 +28,7 @@ const Rooms = () => {
       image: IMAGES.ROOM3,
       title: "Refresh and Rejuvenate",
       description:
-        "At Velloura, even the most personal spaces are designed to refresh and rejuvenate. From sleek finishes to calming lights, every element makes daily rituals feel effortless.",
+        "At Veloura, even the most personal spaces are designed to refresh and rejuvenate. From sleek finishes to calming lights, every element makes daily rituals feel effortless.",
       price: "30k",
     },
     {
