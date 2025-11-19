@@ -80,9 +80,8 @@ const Blog = () => {
                             <p
                                 key={index}
                                 className={`text-base sm:text-md md:text-lg text-[${Theme.colors.darkText}] leading-relaxed`}
-                            >
-                                {parag}
-                            </p>
+                                dangerouslySetInnerHTML={{ __html: parag }}
+                            />
                         ))}
                     </div>
 
@@ -128,9 +127,8 @@ const Blog = () => {
                                                 <p
                                                     key={i}
                                                     className={`text-base sm:text-md md:text-lg text-[${Theme.colors.darkText}]`}
-                                                >
-                                                    {para}
-                                                </p>
+                                                    dangerouslySetInnerHTML={{ __html: para }}
+                                                />
                                             ))}
                                         </div>
                                     </div>
@@ -146,9 +144,8 @@ const Blog = () => {
                                             ? `font-semibold text-[${Theme.colors.text}] `
                                             : 'font-normal'
                                             }`}
-                                    >
-                                        {para}
-                                    </p>
+                                        dangerouslySetInnerHTML={{ __html: para }}
+                                    />
                                 ))}
                             </div>
                         </div>

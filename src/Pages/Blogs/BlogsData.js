@@ -20,7 +20,7 @@ export const BlogsData = [
         ],
 
         titleDescription: [
-            ` Villa Izara is not among the other private villas in Udaipur, offering luxurious stays and personalized
+            ` Villa Izara is not among the other <a href="https://www.velourastays.com/villas">private villas in Udaipur</a>, offering luxurious stays and personalized
 comfort. Capturing the heart of every traveler, it provides a royal and lavish essence of Udaipur’s 
 rugged plains.`,
             `Explore the sanctuary we have built in the rugged plains of the Aravallis for a lavish Udaipur stay.`],
@@ -39,7 +39,7 @@ rugged plains.`,
                 {
                     title: "2. Art in the Air: Host Creative Outdoor Workshops",
                     paragraphs: [
-                        "A stay at the luxury villas of Udaipur comes with many creative outdoor workshops for art lovers. Whether you are a weekend planner or a privacy lover, our villa setting supports creating and connecting with art.",
+                        `A stay at the <strong><a href="https://www.velourastays.com/">luxury villas of Udaipur</a></strong> comes with many creative outdoor workshops for art lovers. Whether you are a weekend planner or a privacy lover, our villa setting supports creating and connecting with art.`,
                         "Furthermore, we have an open-air courtyard and shaded patios for you to experience nature’s rhythm. At our sanctuary, inspiration directly comes from the free breeze of Udaipur’s serene mountain ranges.",
                         `So whether it is painting or sculpting, journal along with nature’s carefree rhythm at Villa Izara.`
                     ]
@@ -57,8 +57,8 @@ spotting the stars!`
                 {
                     title: "4. Wellness Retreats: Host Healing Escapes in the Aravallis",
                     paragraphs: [
-                        `Tucked away in the tranquil experiences of the Aravallis, choose Villa Izara as your private 
-villa in Udaipur. We can be your best choice for the soul-deep rejuvenation you need after
+                        `Tucked away in the tranquil experiences of the Aravallis, choose <strong><a href="https://www.velourastays.com/villasIzara">Villa Izara as your private 
+villa in Udaipur</a></strong>. We can be your best choice for the soul-deep rejuvenation you need after
 a lot of hustle.`,
                         `We understand that life is not easy, and hence, humans deserve a wellness retreat! Subsequently,
 you require a spiritual and other healing escape in the heart of the Aravallis, Udaipur.`,

@@ -222,7 +222,7 @@ const Footer = () => {
           {/* COPYRIGHT */}
           <div className="border-t border-[#403B21]/20 mt-12 pt-6 text-center text-[#403B21]/60 text-xs sm:text-sm md:text-base">
             <p className="font-light">
-              &copy; {new Date().getFullYear()} Veloura Stays. All Rights Reserved.
+              &copy; {new Date().getFullYear()} Veloura Stays. All Rights R eserved.
               <span className="mx-2"></span>
             </p>
           </div>
