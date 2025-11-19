@@ -35,7 +35,7 @@ const Blog = () => {
             <Title>{blog.metaTitle || blog.title}</Title>
             <Meta name="description" content={blog.metaDescription || blog.subtitle} />
             <Meta name="robots" content="index, follow" />
-            <link rel="canonical" href={`https://velourastays.com/blog/${blog.slug}`} />
+            <link rel="canonical" href={`https://www.velourastays.com/blog/${blog.slug}`} />
 
             {/* Optional — Social Sharing SEO Tags */}
             <Meta property="og:title" content={blog.metaTitle || blog.title} />

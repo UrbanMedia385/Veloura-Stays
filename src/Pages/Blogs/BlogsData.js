@@ -3,7 +3,7 @@ import IMAGES from "../../Constants/Images"
 export const BlogsData = [
     {
         id: 1,
-        slug: "why-is-villa-izara-more-than-just-a-private-villa-in-udaipur",
+        slug: "why-is-villasIzara-more-than-just-a-private-villa-in-udaipur",
 
         metaTitle: "Why Is Villa Izara More Than Just A Private Villa In Udaipur?",
         metaDescription: "Discover why Villa Izara is more than just a private villa in Udaipur. Click to learn about the personalized services offered at reasonable rates!",
@@ -125,7 +125,7 @@ serene hillside. `
                 {
                     title: "1. Add a Touch of Nature & Luxury: Embrace the Lush Green Corners",
                     paragraphs: [
-                        `Welcome to the best frame hanging villa in Udaipur; Villa Izara, a pinnacle of luxury offering serene 
+                        `Welcome to the best <a href="/villasIzara">frame hanging villa in Udaipur</a>; Villa Izara, a pinnacle of luxury offering serene 
 comfort. When we say serene comfort, a picture of lavish interiors and a private sanctuary boosts an 
 unforgettable stay.`,
                         `With unique architectural inventions in the Emerald Hills, Udaipur, this 5 BHK villa is a testament to a 
@@ -162,14 +162,14 @@ Villa Izara is the epitome of luxury, offering amenities like a private pool, pa
                     paragraphs: [
                         `This is because our villa is not just a stay, it is a whole destination. We offer all kinds of amenities under
 a single roof to make your staycation an ideal one. Constructed as an A-Frame Hanging Villa in Udaipur,
-we ensure you with comfort, elegance, and pure relaxation.`,
+we ensure you with comfort, elegance, and pure relaxation. Learn more about <a href="/destinations/udaipur">luxury stays in Udaipur</a>.`,
                     ]
                 }
             ],
             endingParagraphs: [
                 "Welcome To The World Of Private Villas In Udaipur With Villa Izara",
-                `Villa Izara by Veloura Stays in Udaipur is the true essence of luxury, where privacy and comfort are
-prioritized. As we are the best frame hanging villa in Udaipur, our uniqueness defines your comfort.`,
+                `Villa Izara by <a href="https://www.velourastays.com/">Veloura Stays in Udaipur</a> is the true essence of luxury, where privacy and comfort are
+prioritized. As we are the best <a href="/villasIzara">frame hanging villa in Udaipur</a>, our uniqueness defines your comfort.`,
                 `Hence, we chose the Emerald Hills in Udaipur for your best staycation destination! Backed by Veloura 
 Stays, we operate in a world-class city, famous for its hospitality.`,
                 `Then what makes you think otherwise about Villa Izara ? This is the moment when you skip the ordinary
@@ -208,12 +208,12 @@ private villas in Udaipur to claim your Udaipur feast!`
         ],
 
         titleDescription: [
-            `Udaipur is often at the top of the list when it comes to having a perfect getaway, as it has a royal 
-charm, lakes, and amazing views. However, inside the palaces and heritage hotels, we found a hidden 
-gem, The Izara Hanging Villa. Cuddled in the majestic Aravali ranges, this beautifully A-structured villa
+            `Udaipur is often at the top of the list when it comes to having a perfect getaway, as it has a royal
+charm, lakes, and amazing views. However, inside the palaces and heritage hotels, we found a hidden
+gem, <a href="/villasIzara">The Izara Hanging Villa</a>. Cuddled in the majestic Aravali ranges, this beautifully A-structured villa
 is not just a stay but an experience of modern luxury in the lap of nature. Whether you are looking for
-romance with a partner, relaxing time with family, or new travels where adventures await, the Izara 
-Villa has it all. `
+romance with a partner, relaxing time with family, or new travels where adventures await, <a href="/villasIzara">the Izara
+Villa</a> has it all. `
         ],
 
         blogData: {
@@ -289,7 +289,7 @@ making Izara Villa the perfect getaway.`,
 then Izara Hanging Villa in Udaipur is the answer for you. The beautiful mountain view, entirely unique 
 architectural structure, highest range of comfort level, and personal assistance while you are there 
 ensure you create your perfect escape.`,
-                `Reserve your stay at Izara Hanging Villa today and allow the mountains of Udaipur to grant you a 
+                `Reserve your stay at <a href="/villasIzara">Izara Hanging Villa</a> today and allow the mountains of Udaipur to grant you a 
 lifetime of memories.`
             ]
         }
