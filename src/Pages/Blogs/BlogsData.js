@@ -3,7 +3,7 @@ import IMAGES from "../../Constants/Images"
 export const BlogsData = [
     {
         id: 1,
-        slug: "why-is-villasIzara-more-than-just-a-private-villa-in-udaipur",
+        slug: "why-is-villa-izara-more-than-just-a-private-villa-in-udaipur",
 
         metaTitle: "Why Is Villa Izara More Than Just A Private Villa In Udaipur?",
         metaDescription: "Discover why Villa Izara is more than just a private villa in Udaipur. Click to learn about the personalized services offered at reasonable rates!",
