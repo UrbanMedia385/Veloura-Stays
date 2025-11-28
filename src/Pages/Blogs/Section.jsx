@@ -5,7 +5,7 @@ import BlogCard2 from '../../components/BlogCard2';
 import { BlogsData } from './BlogsData';
 
 const Section = () => {
-    const blogs = BlogsData.map(blog => ({
+    const blogs = BlogsData.sort((a, b) => b.id - a.id).map(blog => ({
         imageUrl: blog.images[0] || IMAGES.BLOGHERO,
         title: blog.title,
         excerpt: blog.titleDescription[0] || blog.metaDescription,
