@@ -14,9 +14,9 @@ export const BlogsData = [
         hero: IMAGES.ABOUTHERO,
 
         images: [
-            IMAGES.HERO1,
             IMAGES.HERO2,
-            IMAGES.HERO3
+            IMAGES.HERO3,
+            IMAGES.BLOGHERO
         ],
 
         titleDescription: [
@@ -103,7 +103,7 @@ Veloura Stays, plan your escape with us to experience the magic of the Emerald H
         metaDescription: "Discover why Villa Izara is more than just a private villa in Udaipur.  Click to learn about the personalized services offered at reasonable rates!",
 
         images: [
-            IMAGES.HERO1,
+            IMAGES.BLOGHERO,
             IMAGES.HERO2,
             IMAGES.HERO3
         ],
@@ -202,9 +202,9 @@ private villas in Udaipur to claim your Udaipur feast!`
         subtitle: " Home/ Blog 3",
         hero: IMAGES.ABOUTHERO,
         images: [
+            IMAGES.HERO3,
             IMAGES.HERO1,
-            IMAGES.HERO2,
-            IMAGES.HERO3
+            IMAGES.HERO2
         ],
 
         titleDescription: [
@@ -293,5 +293,96 @@ ensure you create your perfect escape.`,
 lifetime of memories.`
             ]
         }
+    },
+
+    {
+        id: 4,
+        slug: "veloura-stays-transforming-private-villa-living-in-india-with-modern-luxury",
+
+        metaTitle: "Veloura Stays: Transforming Private Villa Living in India with Modern Luxury",
+        metaDescription: "Discover how Veloura Stays is revolutionizing private villa experiences in Udaipur, offering luxury, privacy, and personalized service for every traveler.",
+
+        title: "Veloura Stays: Transforming Private Villa Living in India with Modern Luxury",
+        subtitle: "Home/ Blog 4",
+        hero: IMAGES.ABOUTHERO,
+
+        images: [
+            IMAGES.HERO1,
+            IMAGES.HERO2,
+            IMAGES.HERO3
+        ],
+
+        titleDescription: [
+            `Travelling has evolved, we no longer limit ourselves to just having a room, there's a significant need for space and privacy in addition to the regular travel accommodation provided by hotels. The desire for space, flexibility, design, and personal touches are driving demand for Private Villas in Udaipur and throughout India, allowing travellers to have the luxuries of being in a villa on their terms rather than conforming to the structure of a hotel.`,
+            `Veloura Stays is ahead of the curve with understanding the new mindset of travelers. They have created Villas that evoke the idea of holiday living with beautifully styled designs that feature both aesthetic and tactile elements. Each Villa is a space designed for today's traveler who puts a premium on having a comfortable environment that reflects their personality.`
+        ],
+
+        blogData: {
+            title: "Veloura Stays: The Evolution in Luxury Hospitality",
+            points: [
+                {
+                    title: "The Advantage of Staying in Your Own Villa",
+                    paragraphs: [
+                        "Hotel accommodations limit travelers in many ways via time restraints, limited shared spaces like the pool or beach area, rules that govern everything from the number of guests allowed in a room to what time guests have to be in their rooms for curfew; Additionally, hotel rooms are typically the same no matter where you're staying.",
+                        "Private Villas in Udaipur give you total freedom. A few examples include: Slow mornings with time to spend at the Villa before heading out. No strangers in the private pool. The ability to cook and eat whenever you want; i.e.; Midnight. Celebrations without disturbing the neighbors. Quality time with your friends and family in total privacy."
+                    ]
+                },
+                {
+                    title: "Tailored for Every Type of Traveler",
+                    paragraphs: [
+                        "Families - Every family member has their own space to swim safely, relax peacefully and enjoy their own solitude.",
+                        "Couples – Create a romantic atmosphere with quiet nooks, candlelit patios and peaceful mornings.",
+                        "Groups of Friends – Prepare meals together, have plenty of laughs, and swim at your own pace.",
+                        "Very Small Celebrations – Intimate settings for birthdays, anniversaries and pre-wedding events.",
+                        "Telecommuters – Work productively in spacious rooms with tranquil outdoor spaces and views of nature."
+                    ]
+                },
+                {
+                    title: "Private Villas as the New Standard for Luxury in Udaipur",
+                    paragraphs: [
+                        "There is a rapid increase in private villa travels and therefore demonstrates a shift in lifestyle, not just a current trend.",
+                        "More people are seeking to have: Their own space to themselves, Greater freedom of movement, The Comforts of Home, Exclusive Amenities and, Little if any outside distractions, and Tailored Experiences.",
+                        "Veloura Private Villas encompass each of these elements in one offering, combining the attributes of luxury living into one package, while also providing guests with an attached home, rather than a detached property."
+                    ]
+                },
+                {
+                    title: "Veloura Stays: The Evolution in Luxury Hospitality",
+                    paragraphs: [
+                        "What sets Veloura Private Villas apart from other Private Villas in Udaipur is the level of service offered by the Veloura Team Members. The Veloura team members are trained to anticipate guests’ needs, and therefore will provide them with their complete support, without being intrusive.",
+                        "The type of service provided by Veloura will be understated and thoughtful, and provide you with anything you may need, from housekeeping and maintenance to anything else you might require, by simply requesting it.",
+                        "With this type of quality service, the guest feels as if they were being cared for rather than managed. Thus, the main differentiator between Veloura's Private Villas and other Private Villas is the quality of the service provided."
+                    ]
+                },
+                {
+                    title: "A Personalised Stay - Each Time",
+                    paragraphs: [
+                        "Veloura Stays provides travellers with a space to relax, take a break from the everyday and reconnect through an unconventional way of traveling. You’ll have a unique, personalized stay at Veloura's Private Villas in Udaipur, where you’ll be able to experience the ideal blend of luxury, privacy and smart design.",
+                        "Whether you are looking for a romantic getaway, family celebration, or just a place to unwind, Veloura's Private Villas offer guests a distinctive and personalized villa experience that is upscale and exclusive."
+                    ]
+                }
+            ],
+            endingParagraphs: [
+                "In short, anyone who enjoys comfortable living with privacy and good design naturally gravitates towards villas.",
+                "Veloura Stays: Transforming Private Villa Living in India with Modern Luxury"
+            ]
+        },
+        faqData: [
+            {
+                question: "What are the advantages of staying in private villas in Udaipur?",
+                answer: "Private villas offer total freedom, including slow mornings, private pools, flexible meal times, undisturbed celebrations, and quality family time without hotel restrictions."
+            },
+            {
+                question: "Who can benefit from staying at Veloura Stays?",
+                answer: "Veloura Stays caters to families, couples, groups of friends, those celebrating small events, and telecommuters seeking privacy and luxury."
+            },
+            {
+                question: "What sets Veloura Stays apart from other private villas?",
+                answer: "Veloura Stays provides personalized, understated service where team members anticipate needs without being intrusive, making guests feel cared for rather than managed."
+            },
+            {
+                question: "Is private villa living a new trend in India?",
+                answer: "Yes, there's a rapid increase in private villa travels, indicating a shift in lifestyle towards greater freedom, home comforts, and tailored experiences."
+            }
+        ]
     }
 ]
