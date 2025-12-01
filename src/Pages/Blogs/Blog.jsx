@@ -14,14 +14,14 @@ import { Title, Meta } from "react-head";
 
 
 const Blog = () => {
-    const { id } = useParams();
-    // Check if id is a number (old format) or slug (new format)
-    const isNumeric = /^\d+$/.test(id);
+    const { slug } = useParams();
+    // Check if slug is a number (old format) or slug (new format)
+    const isNumeric = /^\d+$/.test(slug);
     let blog;
     if (isNumeric) {
-        blog = BlogsData.find((b) => b.id === parseInt(id));
+        blog = BlogsData.find((b) => b.id === parseInt(slug));
     } else {
-        blog = BlogsData.find((b) => b.slug === id);
+        blog = BlogsData.find((b) => b.slug === slug);
     }
 
     if (!blog) {
