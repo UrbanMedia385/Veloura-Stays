@@ -27,7 +27,7 @@ function App() {
           <Route path="blogs" element={<Blogs />} />
           <Route path="villasIzara" element={<VillaIzara />} />
           <Route path="Thankyou" element={<Thankyou />} />
-          <Route path="blog/:id" element={<Blog />} />
+          <Route path="blog/:slug" element={<Blog />} />
           <Route path="destinations/udaipur" element={<UdaipurPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
