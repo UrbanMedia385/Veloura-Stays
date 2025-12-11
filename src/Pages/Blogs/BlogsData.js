@@ -4,6 +4,7 @@ export const BlogsData = [
     {
         id: 1,
         slug: "why-is-villa-izara-more-than-just-a-private-villa-in-udaipur",
+        date: "September 15, 2025",
 
         metaTitle: "Why Is Villa Izara More Than Just A Private Villa In Udaipur?",
         metaDescription: "Discover why Villa Izara is more than just a private villa in Udaipur. Click to learn about the personalized services offered at reasonable rates!",
@@ -95,6 +96,8 @@ Veloura Stays, plan your escape with us to experience the magic of the Emerald H
     {
         id: 2,
         slug: "a-frame-hanging-villa-in-udaipur-experience-luxury-like-never-before",
+        date: "October 20, 2025",
+
         title: "A-Frame Hanging Villa In Udaipur: Experience Luxury Like Never Before",
         subtitle: " Home/ Blog 2",
         hero: IMAGES.ABOUTHERO,
@@ -198,6 +201,8 @@ private villas in Udaipur to claim your Udaipur feast!`
 
         id: 3,
         slug: "top-reasons-to-choose-izara-hanging-villa-in-udaipur",
+        date: "December 5, 2025",
+
         title: "Top Reasons to Choose Izara Hanging Villa in Udaipur",
         subtitle: " Home/ Blog 3",
         hero: IMAGES.ABOUTHERO,
@@ -389,6 +394,7 @@ lifetime of memories.`
     {
         id: 5,
         slug: "udaipurs-villa-izara-a-luxurious-experience-like-no-other",
+        date: "November 10, 2025",
 
         metaTitle: "Udaipur's Villa Izara : A Luxurious Experience Like No Other",
         metaDescription: "Experience luxury like never before at Villa Izara in Udaipur. Discover the perfect blend of modern comfort, breathtaking views, and personalized service in this stunning 5-BHK villa.",
@@ -470,6 +476,7 @@ lifetime of memories.`
     {
         id: 6,
         slug: "villa-izara-full-checklist-why-rent-private-villas-in-udaipur",
+        date: "December 10, 2025",
 
         metaTitle: "Villa Izara’s Full Checklist: Why Rent Private Villas in Udaipur?",
         metaDescription: "Want to book the best private villa in Udaipur but have no idea how to do so? Click the link to learn more about Udaipur’s best private space villa.",

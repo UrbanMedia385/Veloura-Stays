@@ -2,80 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://velourastays.com/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://velourastays.com/about</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://velourastays.com/contact</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://velourastays.com/policies</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   
  <url>
     <loc>https://velourastays.com/destinations/udaipur</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://velourastays.com/villas</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://velourastays.com/villasIzara</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://velourastays.com/blogs</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://velourastays.com/blogs/why-is-villa-izara-more-than-just-a-private-villa-in-udaipur</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://velourastays.com/blogs/a-frame-hanging-villa-in-udaipur-experience-luxury-like-never-before</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://velourastays.com/blogs/top-reasons-to-choose-izara-hanging-villa-in-udaipur</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://velourastays.com/blogs/veloura-stays-transforming-private-villa-living-in-india-with-modern-luxury</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://velourastays.com/blogs/udaipurs-villa-izara-a-luxurious-experience-like-no-other</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2025-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://velourastays.com/blogs/villa-izara-full-checklist-why-rent-private-villas-in-udaipur</loc>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

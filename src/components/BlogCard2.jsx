@@ -11,7 +11,8 @@ const BlogCard2 = ({ ...props }) => {
             { id: 2, slug: "a-frame-hanging-villa-in-udaipur-experience-luxury-like-never-before" },
             { id: 3, slug: "top-reasons-to-choose-izara-hanging-villa-in-udaipur" },
             { id: 4, slug: "veloura-stays-transforming-private-villa-living-in-india-with-modern-luxury" },
-            { id: 5, slug: "udaipurs-villa-izara-a-luxurious-experience-like-no-other" }
+            { id: 5, slug: "udaipurs-villa-izara-a-luxurious-experience-like-no-other" },
+            { id: 6, slug: "villa-izara-full-checklist-why-rent-private-villas-in-udaipur"}
         ];
         const blog = blogs.find(b => b.id === props.blogId);
         if (blog) {

@@ -11,7 +11,7 @@ const Section = () => {
         excerpt: blog.titleDescription[0] || blog.metaDescription,
         author: "Sarah Johnson",
         commentsCount: Math.floor(Math.random() * 100) + 10, // Random for now
-        date: "26 Sep 2024", // Placeholder date
+        date: blog.date,
         blogId: blog.id
     }));
 
