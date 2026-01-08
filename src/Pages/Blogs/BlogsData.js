@@ -4,7 +4,7 @@ export const BlogsData = [
     {
         id: 1,
         slug: "why-is-villa-izara-more-than-just-a-private-villa-in-udaipur",
-        date: "September 15, 2025",
+        date: "Sep 15, 2025",
 
         metaTitle: "Why Is Villa Izara More Than Just A Private Villa In Udaipur?",
         metaDescription: "Discover why Villa Izara is more than just a private villa in Udaipur. Click to learn about the personalized services offered at reasonable rates!",
@@ -201,7 +201,7 @@ private villas in Udaipur to claim your Udaipur feast!`
 
         id: 3,
         slug: "top-reasons-to-choose-izara-hanging-villa-in-udaipur",
-        date: "December 5, 2025",
+        date: "October 28, 2025",
 
         title: "Top Reasons to Choose Izara Hanging Villa in Udaipur",
         subtitle: " Home/ Blog 3",
@@ -394,7 +394,7 @@ lifetime of memories.`
     {
         id: 5,
         slug: "udaipurs-villa-izara-a-luxurious-experience-like-no-other",
-        date: "November 10, 2025",
+        date: "Nov 10, 2025",
 
         metaTitle: "Udaipur's Villa Izara : A Luxurious Experience Like No Other",
         metaDescription: "Experience luxury like never before at Villa Izara in Udaipur. Discover the perfect blend of modern comfort, breathtaking views, and personalized service in this stunning 5-BHK villa.",
@@ -476,7 +476,7 @@ lifetime of memories.`
     {
         id: 6,
         slug: "villa-izara-full-checklist-why-rent-private-villas-in-udaipur",
-        date: "December 10, 2025",
+        date: "Dec 10, 2025",
 
         metaTitle: "Villa Izara’s Full Checklist: Why Rent Private Villas in Udaipur?",
         metaDescription: "Want to book the best private villa in Udaipur but have no idea how to do so? Click the link to learn more about Udaipur’s best private space villa.",
@@ -500,7 +500,7 @@ lifetime of memories.`
             title: "Private Villas in Udaipur: An Introduction to Villa Izara’s Checklist",
             points: [
                 {
-                    title: "Private Villas in Udaipur: An Introduction to Villa Izara’s Checklist",
+                  
                     paragraphs: [
                         `Veloura Stays is Udaipur’s best accommodating entity managing Villa Izara with great property management. Here, privacy, space, and other amenities are offered with great comfort and hospitality under non-restricted systems.`,
                         `Veloura Stays is not an ordinary workstation; however, it features a dedicated space operated by a focused workforce.`,
@@ -631,88 +631,9 @@ lifetime of memories.`
             ]
         },
         faqData: []
-    },
-
-    {
-        id: 8,
-        slug: "villa-izara-full-checklist-why-rent-private-villas-in-udaipur-new",
-        date: "February 15, 2025",
-
-        metaTitle: "Villa Izara’s Full Checklist: Why Rent Private Villas in Udaipur?",
-        metaDescription: "Want to book the best private villa in Udaipur but have no idea how to do so? Click the link to learn more about Udaipur’s best private space villa.",
-
-        title: "Villa Izara’s Full Checklist: Why Rent Private Villas in Udaipur?",
-        subtitle: "Home/ Blog 8",
-        hero: IMAGES.ABOUTHERO,
-
-        images: [
-            IMAGES.IZARAHERO6,
-            IMAGES.HERO2,
-            IMAGES.HERO3
-        ],
-
-        titleDescription: [
-            `Planning accommodation for your travel retreat offers great responses to your exclusive requirements and preferences. For this, Veloura Stays welcomes guests with the best private villa in Udaipur, exceeding their expectations.`,
-            `This is a private space that feels more like a home than only a stay due to the opulent amenities offered. Scroll down to learn more about it.`
-        ],
-
-        blogData: {
-            title: "Private Villas in Udaipur: An Introduction to Villa Izara’s Checklist",
-            points: [
-                {
-                    title: "Private Villas in Udaipur: An Introduction to Villa Izara’s Checklist",
-                    paragraphs: [
-                        `Veloura Stays is Udaipur’s best accommodating entity managing Villa Izara with great property management. Here, privacy, space, and other amenities are offered with great comfort and hospitality under non-restricted systems.`,
-                        `Veloura Stays is not an ordinary workstation; however, it features a dedicated space operated by a focused workforce.`,
-                        `This is why we are the best private villa in Udaipur, enabling you to maintain your everyday lifestyle. Furthermore, we have lenient daily schedules for our guests, to consistently exceed their staycation experiences.`
-                    ]
-                },
-                {
-                    title: "Why is Villa Izara one of your Ideal Private Villas in Udaipur?",
-                    paragraphs: [
-                        `Udaipur is also known as the City of Lakes, offering many ideal stays suitable for the travelers. However, Villa Izara is one of the most ideal private villas, serving several purposes required for modern stays.`,
-                        `Its major purpose is the architecture of an A-framed hanging villa in Udaipur, blending glass walls with modern amenities.`,
-                        `Secondly, this is constructed near the hillside of Udaipur by creating accessible traveling modes, preventing unnecessary climbing. Hence, Veloura Stays has designed this villa in Udaipur by seamlessly converting spaces into opulent designs.`
-                    ]
-                },
-                {
-                    title: "What to Look for When Renting Luxury Villas in Udaipur?",
-                    paragraphs: [
-                        `Whenever the talk is about renting private spaces, the major concern popping up is the location. However, in Udaipur, this concern is shadowed by Villa Izara, providing peace, privacy, opulent comfort, etc. under one roof.`,
-                        `Hence, when looking for rental luxury villas, you need to understand the location and then go ahead with other characteristics.`,
-                        `Other characteristics to look for are the neighborhood, residential areas, roads, and essential amenity outlets, etc. Here, you must be clear about the amenities of the villa and the surrounding functioning for a better experience.`
-                    ]
-                },
-                {
-                    title: "Why is Villa Izara the best Luxury Villa on Rent in Udaipur?",
-                    paragraphs: [
-                        `While there is no significance of being the best luxury villa on rent in Udaipur, the experience says it all! Veloura Stays has the natural airflow patterns of the Aravalli Ranges, needed in Rajasthan’s breezing spaces.`,
-                        `Moreover, Villa Izara is situated in the best space of the Aravalli Ranges, where natural light shadows the surroundings.`,
-                        `Also, the space optimization sets the A-frame hanging villa as a multi-level functioning property. Therefore, Villa Izara is the best option for a rental luxury villa in Udaipur, offering perfect and distinctive stay options.`
-                    ]
-                },
-                {
-                    title: "Pro Tips for the First-Time Renters of Private Villas in Udaipur",
-                    paragraphs: [
-                        `Renting the best private villa in Udaipur is not a challenge; however, getting affordable deals is. This is one of the most important practical realities of renting luxurious properties anywhere for the best experiences.`,
-                        `As the first-time renters, the peak season to rent private villas in Udaipur is between October to March. This is also the peak festive season in the City of Lakes!`,
-                        `Secondly, long celebratory nights also take place in Udaipur, so booking is advised to be completed in advance. This is because the property holders get engaged in a variety of things, further delaying availability.`
-                    ]
-                },
-                {
-                    title: "Want to Know More About a Regal Stay in Udaipur? Villa Izara Awaits You",
-                    paragraphs: [
-                        `Until now, we have discussed how Villa Izara offers a unique stay in Udaipur; now the actual showdown begins. Get ready for the unusual mornings of Udaipur if you scroll here!`,
-                        `At the best private villa in Udaipur, the day is not ordinary, as the intense city sparks await you. Wake up to the hillside elevation of Udaipur with Villa Izara and direct your travel stories in a way that suits you!`
-                    ]
-                }
-            ],
-            endingParagraphs: [
-                ""
-            ]
-        },
-        faqData: []
     }
+
+
 
 
 
