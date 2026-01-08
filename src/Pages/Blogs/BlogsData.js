@@ -646,7 +646,7 @@ lifetime of memories.`
         hero: IMAGES.ABOUTHERO,
 
         images: [
-            IMAGES.HERO1,
+            IMAGES.IZARAHERO6,
             IMAGES.HERO2,
             IMAGES.HERO3
         ],
