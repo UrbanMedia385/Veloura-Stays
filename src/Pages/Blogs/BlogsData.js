@@ -490,67 +490,115 @@ lifetime of memories.`
             IMAGES.HERO2,
             IMAGES.HERO3
         ],
+        titleDescription: [],
 
-        titleDescription: [
-            `Planning accommodation for your travel retreat offers great responses to your exclusive requirements and preferences. For this, Veloura Stays welcomes guests with the best private villa in Udaipur, exceeding their expectations.`,
-            `This is a private space that feels more like a home than only a stay due to the opulent amenities offered. Scroll down to learn more about it.`
-        ],
+        // Full HTML blog content for "Villa Izara’s Full Checklist: Why Rent Private Villas in Udaipur?"
+        htmlContent: `
 
-        blogData: {
-            title: "Private Villas in Udaipur: An Introduction to Villa Izara’s Checklist",
-            points: [
-                {
-                  
-                    paragraphs: [
-                        `Veloura Stays is Udaipur’s best accommodating entity managing Villa Izara with great property management. Here, privacy, space, and other amenities are offered with great comfort and hospitality under non-restricted systems.`,
-                        `Veloura Stays is not an ordinary workstation; however, it features a dedicated space operated by a focused workforce.`,
-                        `This is why we are the best private villa in Udaipur, enabling you to maintain your everyday lifestyle. Furthermore, we have lenient daily schedules for our guests, to consistently exceed their staycation experiences.`
-                    ]
-                },
-                {
-                    title: "Why is Villa Izara one of your Ideal Private Villas in Udaipur?",
-                    paragraphs: [
-                        `Udaipur is also known as the City of Lakes, offering many ideal stays suitable for the travelers. However, Villa Izara is one of the most ideal private villas, serving several purposes required for modern stays.`,
-                        `Its major purpose is the architecture of an A-framed hanging villa in Udaipur, blending glass walls with modern amenities.`,
-                        `Secondly, this is constructed near the hillside of Udaipur by creating accessible traveling modes, preventing unnecessary climbing. Hence, Veloura Stays has designed this villa in Udaipur by seamlessly converting spaces into opulent designs.`
-                    ]
-                },
-                {
-                    title: "What to Look for When Renting Luxury Villas in Udaipur?",
-                    paragraphs: [
-                        `Whenever the talk is about renting private spaces, the major concern popping up is the location. However, in Udaipur, this concern is shadowed by Villa Izara, providing peace, privacy, opulent comfort, etc. under one roof.`,
-                        `Hence, when looking for rental luxury villas, you need to understand the location and then go ahead with other characteristics.`,
-                        `Other characteristics to look for are the neighborhood, residential areas, roads, and essential amenity outlets, etc. Here, you must be clear about the amenities of the villa and the surrounding functioning for a better experience.`
-                    ]
-                },
-                {
-                    title: "Why is Villa Izara the best Luxury Villa on Rent in Udaipur?",
-                    paragraphs: [
-                        `While there is no significance of being the best luxury villa on rent in Udaipur, the experience says it all! Veloura Stays has the natural airflow patterns of the Aravalli Ranges, needed in Rajasthan’s breezing spaces.`,
-                        `Moreover, Villa Izara is situated in the best space of the Aravalli Ranges, where natural light shadows the surroundings.`,
-                        `Also, the space optimization sets the A-frame hanging villa as a multi-level functioning property. Therefore, Villa Izara is the best option for a rental luxury villa in Udaipur, offering perfect and distinctive stay options.`
-                    ]
-                },
-                {
-                    title: "Pro Tips for the First-Time Renters of Private Villas in Udaipur",
-                    paragraphs: [
-                        `Renting the best private villa in Udaipur is not a challenge; however, getting affordable deals is. This is one of the most important practical realities of renting luxurious properties anywhere for the best experiences.`,
-                        `As the first-time renters, the peak season to rent private villas in Udaipur is between October to March. This is also the peak festive season in the City of Lakes!`,
-                        `Secondly, long celebratory nights also take place in Udaipur, so booking is advised to be completed in advance. This is because the property holders get engaged in a variety of things, further delaying availability.`
-                    ]
-                },
-                {
-                    title: "Want to Know More About a Regal Stay in Udaipur? Villa Izara Awaits You",
-                    paragraphs: [
-                        `Until now, we have discussed how Villa Izara offers a unique stay in Udaipur; now the actual showdown begins. Get ready for the unusual mornings of Udaipur if you scroll here!`,
-                        `At the best private villa in Udaipur, the day is not ordinary, as the intense city sparks await you. Wake up to the hillside elevation of Udaipur with Villa Izara and direct your travel stories in a way that suits you!`
-                    ]
-                }
-            ],
-            endingParagraphs: [
-                "add this blog"
-            ]
-        },
+
+  <p>
+    Planning accommodation for your travel retreat offers great responses to your exclusive requirements and preferences.
+    For this, Veloura Stays welcomes guests with the best <a href="https://www.velourastays.com/villas"> <strong> private villa in Udaipur </strong></a> exceeding their expectations.
+  </p>
+
+  <p>
+    This is a private space that feels more like a home than only a stay due to the opulent amenities offered.
+    Scroll down to learn more about it.
+  </p>
+
+  <h2>Private Villas in Udaipur: An Introduction to Villa Izara’s Checklist</h2>
+
+  <p>
+    Veloura Stays is Udaipur’s best accommodating entity managing Villa Izara with great property management.
+    Here, privacy, space, and other amenities are offered with great comfort and hospitality under non-restricted systems.
+  </p>
+
+  <p>
+    Veloura Stays is not an ordinary workstation; however, it features a dedicated space operated by a focused workforce.
+  </p>
+
+  <p>
+    This is why we are the best private villa in Udaipur, enabling you to maintain your everyday lifestyle.
+    Furthermore, we have lenient daily schedules for our guests, to consistently exceed their staycation experiences.
+  </p>
+
+  <h2>Why is Villa Izara One of Your Ideal Private Villas in Udaipur?</h2>
+
+  <p>
+    Udaipur is also known as the City of Lakes, offering many ideal stays suitable for travelers.
+    However, Villa Izara is one of the most ideal private villas, serving several purposes required for modern stays.
+  </p>
+
+  <p>
+    Its major purpose is the architecture of an A-framed hanging villa in Udaipur, blending glass walls with modern amenities.
+  </p>
+
+  <p>
+    Secondly, this is constructed near the hillside of Udaipur by creating accessible traveling modes, preventing unnecessary climbing.
+    Hence, Veloura Stays has designed this villa in Udaipur by seamlessly converting spaces into opulent designs.
+  </p>
+
+  <h2>What to Look for When Renting Luxury Villas in Udaipur?</h2>
+
+  <p>
+    Whenever the talk is about renting private spaces, the major concern popping up is the location.
+    However, in Udaipur, this concern is shadowed by Villa Izara, providing peace, privacy, opulent comfort, etc. under one roof.
+  </p>
+
+  <p>
+    Hence, when looking for rental luxury villas, you need to understand the location and then go ahead with other characteristics.
+  </p>
+
+  <p>
+    Other characteristics to look for are the neighborhood, residential areas, roads, and essential amenity outlets, etc.
+    Here, you must be clear about the amenities of the villa and the surrounding functioning for a better experience.
+  </p>
+
+  <h2>Why is Villa Izara the Best Luxury Villa on Rent in Udaipur?</h2>
+
+  <p>
+    While there is no significance of being the best luxury villa on rent in Udaipur, the experience says it all!
+    Veloura Stays has the natural airflow patterns of the Aravalli ranges, needed in Rajasthan’s breezing spaces.
+  </p>
+
+  <p>
+    Moreover, Villa Izara is situated in the best space of the Aravalli ranges, where natural light shadows the surroundings.
+  </p>
+
+  <p>
+    Also, the space optimization sets the A-frame hanging villa as a multi-level functioning property.
+    Therefore, Villa Izara is the best option for a rental luxury villa in Udaipur, offering perfect and distinctive stay options.
+  </p>
+
+  <h2>Pro Tips for First-Time Renters of Private Villas in Udaipur</h2>
+
+  <p>
+    Renting the best private villa in Udaipur is not a challenge; however, getting affordable deals is.
+    This is one of the most important practical realities of renting luxurious properties anywhere for the best experiences.
+  </p>
+
+  <p>
+    As first-time renters, the peak season to rent private villas in Udaipur is between October to March.
+    This is also the peak festive season in the City of Lakes!
+  </p>
+
+  <p>
+    Secondly, long celebratory nights also take place in Udaipur, so booking is advised to be completed in advance.
+    This is because the property holders get engaged in a variety of things, further delaying availability.
+  </p>
+
+  <h2>Want to Know More About a Regal Stay in Udaipur? Villa Izara Awaits You</h2>
+
+  <p>
+    Until now, we have discussed how Villa Izara offers a unique stay in Udaipur; now the actual showdown begins.
+    Get ready for the unusual mornings of Udaipur if you scroll here!
+  </p>
+
+  <p>
+    At the best private villa in Udaipur, the day is not ordinary, as the intense city sparks await you.
+    Wake up to the hillside elevation of Udaipur with Villa Izara and direct your travel stories in a way that suits you!
+  </p>
+        `,
         faqData: []
     },
 
@@ -571,65 +619,112 @@ lifetime of memories.`
             
         ],
 
-        titleDescription: [
-            `Endless interactions in the digital world do not sound exciting but feel like a digital prison. A prison where your body craves rest, but your mind is filled with urban stress and chaos. This is why; you require a digital detox at luxury villas with pool in Udaipur for genuine relaxation.`,
-            `Imagine waking up to the magical Aravalli Ranges amid a complete private sanctuary to revive your mental health. This is what Udaipur is all about. Scroll down to know more!`
-        ],
+        titleDescription: [],
 
-        blogData: {
-            title: "Embrace Digital Detox at Luxury Villas with Private Pool in Udaipur",
-            points: [
-                {
-                    title: "Introduction to the Digital Detox Retreat at Luxury Villas with Pool in Udaipur",
-                    paragraphs: [
-                        "Digital Detox retreats in Udaipur have evolved over time with necessary elements like facilities and valuable moments. This completes the whole ritual of wellness retreat alongside a free schedule excluding the digital prison.",
-                        "Furthermore, luxury villas with a pool in Udaipur impose no pressure to hinder your detox protocol. This is Villa Izara’s genuine wellness retreat for you!",
-                        "Here, you can embrace the space, privacy, and luxurious grandeur, ideal for a digital detox in this smart generation. Where people are chasing chaos, you can make a difference by disconnecting from digital paradox."
-                    ]
-                },
-                {
-                    title: "The Reality of Digital Burnout and how Luxury Villas in Udaipur Eliminate it?",
-                    paragraphs: [
-                        "The reality of digital burnout is not only about feeling tired or fatigued but includes genuine exhaustion. The symptoms might be normal, but the aftereffects cannot be trusted for a longer period of time.",
-                        "Therefore, focus on maintaining the stress levels and the ability to detox even during the downtime.",
-                        "Villa Izara by Veloura Stays understands this burnout and provides several relatable scenarios for detoxing. Villas in Udaipur with a private pool eliminate every stressing element from your life through thoughtful engagements."
-                    ]
-                },
-                {
-                    title: "What Luxury Villas with Pool in Udaipur Offer as the best Digital Detox Retreat",
-                    paragraphs: [
-                        "The best digital detox retreat encompasses choosing the much-needed getaway without any digital means. Hence, we provide private pool, private sanctuary, and complete contemporary hospitality required.",
-                        "Furthermore, Villa Izara maintains the legacy of the best luxury villas with a pool in Udaipur to enable real rest.",
-                        "We offer intentional designs to reduce people’s digital dependency through scenic views and detoxing elements. These experiences are structured and flexible as per the guest requirements to accommodate more luxury."
-                    ]
-                },
-                {
-                    title: "Reconnect with a Screen-Free Environment at Udaipur’s best Luxury Villas",
-                    paragraphs: [
-                        "Reconnecting with a screen-free environment is not an easy task, as it is rarely available as a hospitality element. This is why we help people experience a sacred connection with nature, to engage in untamed activities.",
-                        "These activities are helpful for people to regain their presence in this world rather than drawing towards digital smartness.",
-                        "Udaipur’s role in screen-free living is not only technology-dependent but also crafts cultural richness. Food, folk performances, and other related amenities are provided for reflecting sustainable practices."
-                    ]
-                },
-                {
-                    title: "What are the Lasting Benefits of Udaipur Digital Detox Retreat by Veloura Stays?",
-                    paragraphs: [
-                        "The major benefit of luxury villas with pools in Udaipur is a constant connection with nature’s beauty. This is not just a feeling but a sense of establishing a stress-free routine to positively impact the retreat quality.",
-                        "This is what lasts long with deep restoration boundaries that were not known before. It is a good source of enhancing life balance, relationships, and conversations which can spark happiness."
-                    ]
-                },
-                {
-                    title: "Disconnect from Urban Stress to Connect with Slow Silence by Villa Izara",
-                    paragraphs: [
-                        "Villa Izara by Veloura Stays is the perfect retreat you require for a relaxing mind and soul. Therefore, disconnect with urban stress to connect with slow silence in the heart of the Aravalli hills.",
-                        "Maintaining such a level of peace is nearly impossible in urban areas. Villa Izara is the perfect destination for digital detox."
-                    ]
-                }
-            ],
-            endingParagraphs: [
-                ""
-            ]
-        },
+        // Full HTML blog content for Digital Detox article
+        htmlContent: `
+ 
+
+  <p>
+    Endless interactions in the digital world no longer feel exciting—they feel like a digital prison.
+    When your body craves rest but your mind is filled with urban chaos, a
+    digital detox at <a href="https://www.velourastays.com/destinations/udaipur"> <strong>luxury villas with private pool in Udaipur</strong></a>
+    becomes essential for true relaxation.
+  </p>
+
+  <p>
+    Imagine waking up to panoramic views of the Aravalli Hills, surrounded by silence, privacy,
+    and natural beauty. That is the essence of Udaipur—a destination crafted for peace and wellness.
+  </p>
+
+  <h2>Introduction to Digital Detox Retreats in Udaipur</h2>
+
+  <p>
+    Digital detox retreats in Udaipur have evolved into holistic wellness experiences.
+    They blend comfort, privacy, and mindful living to help guests disconnect from screens
+    and reconnect with themselves.
+  </p>
+
+  <p>
+    <strong>Luxury villas with pool in Udaipur</strong> provide a pressure-free environment,
+    allowing guests to follow their own detox rhythm. Villa Izara offers a wellness retreat
+    designed for complete mental and physical restoration.
+  </p>
+
+  <h2>The Reality of Digital Burnout and How Luxury Villas in Udaipur Help</h2>
+
+  <p>
+    Digital burnout goes beyond fatigue—it is a form of mental exhaustion caused by constant
+    connectivity. Over time, it affects focus, sleep quality, and emotional balance.
+  </p>
+
+  <p>
+    <strong>Villa Izara by Veloura Stays</strong> addresses this issue by offering a calm,
+    screen-free sanctuary. Staying at villas in Udaipur with private pool removes daily stressors
+    and replaces them with nature, comfort, and silence.
+  </p>
+
+  <h2>Why Luxury Villas with Pool in Udaipur Are Ideal for Digital Detox</h2>
+
+  <p>
+    The best digital detox retreat focuses on isolation from digital noise without compromising comfort.
+    Luxury villas in Udaipur provide:
+  </p>
+
+  <ul>
+    <li>Private pools for uninterrupted relaxation</li>
+    <li>Scenic Aravalli hill views</li>
+    <li>Complete privacy and spacious living</li>
+    <li>Personalized hospitality experiences</li>
+  </ul>
+
+  <p>
+    Villa Izara continues the legacy of being one of the
+    <strong>best luxury villas with pool in Udaipur</strong>,
+    designed intentionally to reduce digital dependency.
+  </p>
+
+  <h2>Reconnect with a Screen-Free Lifestyle in Udaipur</h2>
+
+  <p>
+    A screen-free environment is rare in modern hospitality.
+    At Villa Izara, guests reconnect with nature through mindful activities,
+    peaceful surroundings, and cultural experiences.
+  </p>
+
+  <p>
+    Udaipur’s heritage—its cuisine, folk performances, and sustainable lifestyle—
+    naturally supports a digital detox, making the retreat deeply rejuvenating.
+  </p>
+
+  <h2>Long-Term Benefits of a Digital Detox Retreat in Udaipur</h2>
+
+  <p>
+    Staying at a <strong>luxury villa with private pool in Udaipur</strong>
+    creates long-lasting benefits beyond the retreat itself.
+  </p>
+
+  <ul>
+    <li>Reduced stress and anxiety</li>
+    <li>Improved sleep quality</li>
+    <li>Stronger personal relationships</li>
+    <li>Enhanced mental clarity and focus</li>
+  </ul>
+
+  <h2>Disconnect from Urban Stress at Villa Izara by Veloura Stays</h2>
+
+  <p>
+    Villa Izara by<a href="https://www.velourastays.com/"><strong> Veloura Stays</strong></a> is a sanctuary for those seeking silence, privacy,
+    and mindful living. Nestled in the Aravalli hills, it offers the perfect setting
+    to disconnect from urban life and reconnect with inner peace.
+  </p>
+
+  <p>
+    If you are searching for the perfect destination for a
+    <strong>digital detox in Udaipur</strong>,
+    Villa Izara stands as the ideal choice.
+  </p>
+        `,
         faqData: []
     }
 

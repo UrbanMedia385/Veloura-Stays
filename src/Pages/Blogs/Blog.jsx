@@ -104,51 +104,59 @@ const Blog = () => {
                     )}
 
                     {/* Blog Content */}
-                    {blog.blogData && (
-                        <div className="mt-3 space-y-5">
-                            {/* Blog Section Title */}
-                            <h2
-                                className={`text-xl sm:text-2xl md:text-4xl font-bold text-[${Theme.colors.text}] mb-5 `}
-                            >
-                                {blog.blogData.title}
-                            </h2>
+                    {blog.htmlContent ? (
+                        // NEW: full HTML blog content (H1/H2/P/UL etc.)
+                        <div
+                            className="mt-6 blog-content"
+                            dangerouslySetInnerHTML={{ __html: blog.htmlContent }}
+                        />
+                    ) : (
+                        blog.blogData && (
+                            <div className="mt-3 space-y-5">
+                                {/* Blog Section Title */}
+                                <h2
+                                    className={`text-xl sm:text-2xl md:text-4xl font-bold text-[${Theme.colors.text}] mb-5 `}
+                                >
+                                    {blog.blogData.title}
+                                </h2>
 
-                            {/* Points Section */}
-                            <div className="space-y-2 sm:space-y-3">
-                                {blog.blogData.points.map((point, index) => (
-                                    <div key={index}>
-                                        <h3
-                                            className={`text-lg sm:text-xl md:text-3xl font-semibold text-[${Theme.colors.text}] mb-2`}
-                                        >
-                                            {point.title}
-                                        </h3>
-                                        <div className="space-y-1">
-                                            {point.paragraphs.map((para, i) => (
-                                                <p
-                                                    key={i}
-                                                    className={`text-base sm:text-md md:text-lg text-[${Theme.colors.darkText}]`}
-                                                    dangerouslySetInnerHTML={{ __html: para }}
-                                                />
-                                            ))}
+                                {/* Points Section */}
+                                <div className="space-y-2 sm:space-y-3">
+                                    {blog.blogData.points.map((point, index) => (
+                                        <div key={index}>
+                                            <h3
+                                                className={`text-lg sm:text-xl md:text-3xl font-semibold text-[${Theme.colors.text}] mb-2`}
+                                            >
+                                                {point.title}
+                                            </h3>
+                                            <div className="space-y-1">
+                                                {point.paragraphs.map((para, i) => (
+                                                    <p
+                                                        key={i}
+                                                        className={`text-base sm:text-md md:text-lg text-[${Theme.colors.darkText}]`}
+                                                        dangerouslySetInnerHTML={{ __html: para }}
+                                                    />
+                                                ))}
+                                            </div>
                                         </div>
-                                    </div>
-                                ))}
-                            </div>
+                                    ))}
+                                </div>
 
-                            {/* Ending Paragraphs */}
-                            <div className="mt-2 space-y-1 mb-6 ">
-                                {blog.blogData.endingParagraphs.map((para, index) => (
-                                    <p
-                                        key={index}
-                                        className={`text-base sm:text-md md:text-lg leading-relaxed text-[${Theme.colors.darkText}] ${index === 0
-                                            ? `font-semibold text-[${Theme.colors.text}] `
-                                            : 'font-normal'
-                                            }`}
-                                        dangerouslySetInnerHTML={{ __html: para }}
-                                    />
-                                ))}
+                                {/* Ending Paragraphs */}
+                                <div className="mt-2 space-y-1 mb-6 ">
+                                    {blog.blogData.endingParagraphs.map((para, index) => (
+                                        <p
+                                            key={index}
+                                            className={`text-base sm:text-md md:text-lg leading-relaxed text-[${Theme.colors.darkText}] ${index === 0
+                                                ? `font-semibold text-[${Theme.colors.text}] `
+                                                : 'font-normal'
+                                                }`}
+                                            dangerouslySetInnerHTML={{ __html: para }}
+                                        />
+                                    ))}
+                                </div>
                             </div>
-                        </div>
+                        )
                     )}
                 </div>
             </div>

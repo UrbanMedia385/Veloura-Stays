@@ -67,6 +67,19 @@ h1 {
 }
 
 
+.blog-content h2 {
+  font-size: 27px !important;
+  font-weight: 800;
+}
+
+.blog-content p {
+  font-size: 18px !important;
+  line-height: 36px !important;
+  
+}
+
+
+
 /* Extra small devices (phones, less than 576px) */
 @media (max-width: 575.98px) {
   h1 {
