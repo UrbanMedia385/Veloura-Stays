@@ -12,10 +12,10 @@ const HeroSection = () => {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const navigate = useNavigate();
 
-  const heroImages = [IMAGES.HERO2, IMAGES.HERO1, IMAGES.HERO3, IMAGES.HERO4];
+  const heroImages = [IMAGES.HERO2, IMAGES.HERO1, IMAGES.HERO3, IMAGES.HERO4, IMAGES.HERO5];
 
   const handleNavigation = (path) => {
-    navigate(path);
+    navigate(path);a
   };
 
   const nextSlide = () => {
