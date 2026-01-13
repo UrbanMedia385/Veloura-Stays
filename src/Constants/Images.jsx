@@ -19,6 +19,7 @@ import hero2 from '../assets/hero2.jpg';
 import hero3 from '../assets/hero3.webp';
 import hero4 from '../assets/hero4.jpg';
 import hero5 from '../assets/hero5.webp';
+import hero6 from '../assets/hero6.webp';
 
 
 import icon1 from '../assets/icon1.svg';
@@ -147,6 +148,7 @@ const IMAGES = {
     HERO3: hero3,
     HERO4: hero4,
     HERO5: hero5,
+    HERO6: hero6,
     ICON1: icon1,
     ICON2: icon2,
     ICON3: icon3,

@@ -14,7 +14,8 @@ const BlogCard2 = ({ ...props }) => {
             { id: 5, slug: "udaipurs-villa-izara-a-luxurious-experience-like-no-other" },
             { id: 6, slug: "villa-izara-full-checklist-why-rent-private-villas-in-udaipur"},
             { id: 7, slug: "embrace-digital-detox-at-luxury-villas-with-private-pool-in-udaipur"},
-            { id: 8, slug: "5-Reasons-Why-Travelers-Are-Ditching-Udaipur-Hotels-for-Luxury-Villas"}
+            { id: 8, slug: "5-Reasons-Why-Travelers-Are-Ditching-Udaipur-Hotels-for-Luxury-Villas"},
+            { id: 9, slug: "How-Do-A-Frame-Villas-in-Udaipur-Collaborate-with-Rajasthani-Hospitality"}
         ];
         const blog = blogs.find(b => b.id === props.blogId);
         if (blog) {
