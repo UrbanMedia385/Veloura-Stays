@@ -1244,7 +1244,7 @@ At the best private villa in Udaipur, the day is not ordinary, as the intense ci
     hero: IMAGES.ABOUTHERO,
 
     images: [
-        IMAGES.HERO8
+        IMAGES.HERO9
         
     ],
 
