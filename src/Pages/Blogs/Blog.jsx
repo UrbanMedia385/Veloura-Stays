@@ -91,7 +91,7 @@ const Blog = () => {
                             {blog.images.map((imgSrc, index) => (
                                 <div
                                     key={index}
-                                    className="flex-1 h-48 sm:h-64 md:h-80 overflow-hidden rounded-none"
+                                    className="flex-1 h-50 sm:h-64 md:h-120 overflow-hidden rounded-none"
                                 >
                                     <img
                                         src={imgSrc}
