@@ -18,7 +18,8 @@ const BlogCard2 = ({ ...props }) => {
             { id: 9, slug: "How-Do-A-Frame-Villas-in-Udaipur-Collaborate-with-Rajasthani-Hospitality"},
             { id: 10, slug: "Villa-Izara-Full-Checklist-Why-Rent-Private-Villas-in-Udaipur"},
             { id: 11, slug: "Why-are-Luxury-Villas-in-Udaipur-a-Perfect-Choice-for-Reunions"},
-            { id: 12, slug: "Why-do-Private-Villas-in-Udaipur-Win-the-Royalty-Race"}
+            { id: 12, slug: "Why-do-Private-Villas-in-Udaipur-Win-the-Royalty-Race"},
+            { id: 13, slug: "Why-are-Villas-with-a-Private-Pool-an-Ultimate-Luxury"}
         ];
         const blog = blogs.find(b => b.id === props.blogId);
         if (blog) {
